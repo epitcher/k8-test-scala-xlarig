@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-cluster
+  namespace: test-cluster
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: test-cluster
+  template:
+    metadata:
+      labels:
+        app: test-cluster
+    spec:
+      containers:
+      - name: test-cluster
+        image: epitcher/test-cluster-scala-xlarig:base
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
+      
