@@ -1,0 +1,19 @@
+{
+    "autosave": true,
+    "donate-level": 0,
+    "cpu": true,
+    "opencl": false,
+    "cuda": false,
+    "pools": [
+        {
+            "coin": null,
+            "algo": null,
+            "url": "mine.scalaproject.io:3333",
+            "user": "SvmKUN1BjFZ2EYHwRpNXaJ2cVdpkEGyyvjDKreAyA8xUGD77XFfenxibstFyK5i2fpKBq18Tue8A75tpJsAKPL3j2dnSqkfgD",
+            "pass": "x",
+            "tls": false,
+            "keepalive": true,
+            "nicehash": false
+        }
+    ]
+}
