@@ -8,9 +8,9 @@
         {
             "coin": null,
             "algo": null,
-            "url": "mine.scalaproject.io:3333",
+            "url": "mine.scalaproject.io:5555",
             "user": "SvmKUN1BjFZ2EYHwRpNXaJ2cVdpkEGyyvjDKreAyA8xUGD77XFfenxibstFyK5i2fpKBq18Tue8A75tpJsAKPL3j2dnSqkfgD",
-            "pass": "x",
+            "pass": "laptop",
             "tls": false,
             "keepalive": true,
             "nicehash": false
